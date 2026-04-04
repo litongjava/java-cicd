@@ -13,12 +13,12 @@ import java.util.concurrent.LinkedBlockingQueue;
 import com.litongjava.cicd.consts.CiCdConst;
 import com.litongjava.cicd.model.BuildTask;
 import com.litongjava.cicd.utils.CiCdBuildBot;
-import com.litongjava.tio.utils.commandline.ProcessResult;
-import com.litongjava.tio.utils.commandline.ProcessUtils;
-import com.litongjava.tio.utils.notification.NotifactionWarmModel;
 
 import lombok.extern.slf4j.Slf4j;
 import nexus.io.model.body.RespBodyVo;
+import nexus.io.tio.utils.commandline.ProcessResult;
+import nexus.io.tio.utils.commandline.ProcessUtils;
+import nexus.io.tio.utils.notification.NotifactionWarmModel;
 
 @Slf4j
 public class TrigerService {
