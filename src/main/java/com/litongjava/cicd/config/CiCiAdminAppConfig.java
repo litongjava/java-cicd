@@ -4,9 +4,10 @@ import java.io.File;
 
 import com.litongjava.cicd.consts.CiCdConst;
 import com.litongjava.cicd.handler.TrigerHandler;
-import com.litongjava.context.BootConfiguration;
 import com.litongjava.tio.boot.server.TioBootServer;
 import com.litongjava.tio.http.server.router.HttpRequestRouter;
+
+import nexus.io.context.BootConfiguration;
 
 public class CiCiAdminAppConfig implements BootConfiguration {
 
