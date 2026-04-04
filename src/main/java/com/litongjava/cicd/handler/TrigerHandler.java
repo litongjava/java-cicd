@@ -1,12 +1,12 @@
 package com.litongjava.cicd.handler;
 
 import com.litongjava.cicd.service.TrigerService;
-import com.litongjava.tio.boot.http.TioRequestContext;
-import com.litongjava.tio.http.common.HttpRequest;
-import com.litongjava.tio.http.common.HttpResponse;
 
 import lombok.extern.slf4j.Slf4j;
 import nexus.io.model.body.RespBodyVo;
+import nexus.io.tio.boot.http.TioRequestContext;
+import nexus.io.tio.http.common.HttpRequest;
+import nexus.io.tio.http.common.HttpResponse;
 
 @Slf4j
 public class TrigerHandler {
