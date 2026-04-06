@@ -1,4 +1,4 @@
-package com.litongjava.cicd.model;
+package nexus.io.cicd.model;
 
 public class BuildTask {
   public final String projectName;

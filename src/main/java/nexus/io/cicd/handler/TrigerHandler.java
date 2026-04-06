@@ -1,8 +1,7 @@
-package com.litongjava.cicd.handler;
-
-import com.litongjava.cicd.service.TrigerService;
+package nexus.io.cicd.handler;
 
 import lombok.extern.slf4j.Slf4j;
+import nexus.io.cicd.service.TrigerService;
 import nexus.io.model.body.RespBodyVo;
 import nexus.io.tio.boot.http.TioRequestContext;
 import nexus.io.tio.http.common.HttpRequest;

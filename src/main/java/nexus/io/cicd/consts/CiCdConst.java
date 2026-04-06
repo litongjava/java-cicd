@@ -1,4 +1,4 @@
-package com.litongjava.cicd.consts;
+package nexus.io.cicd.consts;
 
 public interface CiCdConst {
   String projects = "projects";

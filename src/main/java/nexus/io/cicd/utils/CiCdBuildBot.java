@@ -1,4 +1,4 @@
-package com.litongjava.cicd.utils;
+package nexus.io.cicd.utils;
 import java.io.IOException;
 
 import lombok.extern.slf4j.Slf4j;

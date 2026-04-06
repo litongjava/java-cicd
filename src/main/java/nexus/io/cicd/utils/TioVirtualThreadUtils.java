@@ -1,4 +1,4 @@
-package com.litongjava.cicd.utils;
+package nexus.io.cicd.utils;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;

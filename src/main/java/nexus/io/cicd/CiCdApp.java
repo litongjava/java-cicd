@@ -1,7 +1,6 @@
-package com.litongjava.cicd;
+package nexus.io.cicd;
 
-import com.litongjava.cicd.config.CiCiAdminAppConfig;
-
+import nexus.io.cicd.config.CiCiAdminAppConfig;
 import nexus.io.tio.boot.TioApplication;
 
 public class CiCdApp {

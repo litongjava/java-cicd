@@ -1,4 +1,4 @@
-package com.litongjava.cicd.service;
+package nexus.io.cicd.service;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,11 +10,10 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import com.litongjava.cicd.consts.CiCdConst;
-import com.litongjava.cicd.model.BuildTask;
-import com.litongjava.cicd.utils.CiCdBuildBot;
-
 import lombok.extern.slf4j.Slf4j;
+import nexus.io.cicd.consts.CiCdConst;
+import nexus.io.cicd.model.BuildTask;
+import nexus.io.cicd.utils.CiCdBuildBot;
 import nexus.io.model.body.RespBodyVo;
 import nexus.io.tio.utils.commandline.ProcessResult;
 import nexus.io.tio.utils.commandline.ProcessUtils;

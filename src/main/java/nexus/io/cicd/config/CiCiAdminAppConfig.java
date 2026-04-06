@@ -1,10 +1,9 @@
-package com.litongjava.cicd.config;
+package nexus.io.cicd.config;
 
 import java.io.File;
 
-import com.litongjava.cicd.consts.CiCdConst;
-import com.litongjava.cicd.handler.TrigerHandler;
-
+import nexus.io.cicd.consts.CiCdConst;
+import nexus.io.cicd.handler.TrigerHandler;
 import nexus.io.context.BootConfiguration;
 import nexus.io.tio.boot.server.TioBootServer;
 import nexus.io.tio.http.server.router.HttpRequestRouter;
